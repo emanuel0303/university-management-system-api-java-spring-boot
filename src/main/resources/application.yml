@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  error:
+    include-message: always
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    url: jdbc:mysql://Localhost:3306/uni_db  # Corrected 'Localhost' to 'localhost'
+    password: EmanueL@15
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true
+
+logging:
+  level:
+    org.springframework.security: TRACE
