@@ -46,6 +46,7 @@ This repository contains the backend for a University Management System built wi
 - Java 11 or higher
 - Maven
 - MySQL
+- Spring-Boot
 
 ### Installation
 
@@ -54,20 +55,20 @@ This repository contains the backend for a University Management System built wi
    git clone https://github.com/emanuel0303/university-management-system-api-java-spring-boot
 
 2. Navigate to the project directory:
-bash
-Copy code
-cd university-management-system
-Configure the database in src/main/resources/application.properties.
+    bash
+    Copy code
+    cd university-management-system
+    Configure the database in src/main/resources/application.properties.
 
-3.Build the project:
-bash
-Copy code
-mvn clean install
+3. Build the project:
+    bash
+    Copy code
+    mvn clean install
 
-4.Run the application:
-bash
-Copy code
-mvn spring-boot:run
+4. Run the application:
+    bash
+    Copy code
+    mvn spring-boot:run
 
 ## 🗂️ Database Schema
 The database schema includes tables for students, courses, faculty, enrollments, timetables, and exams, with appropriate relationships and indexes.
