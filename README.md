@@ -30,6 +30,16 @@ This repository contains the backend for a University Management System built wi
 - 📝 Record Results: Post and update student grades.
 - 📈 View Results: Access examination results and overall grades.
 
+### Authentication and Authorization
+- 🔐 JWT Authentication: Secure API endpoints using JSON Web Tokens.
+  
+### Data Access
+- 📊 Specification Queries: Implement dynamic queries using Specifications.
+  
+### Validation and Mapping
+- ✅ Validation: Implement input validation for API requests.
+- 🔄 Model Mapper: Map entities to DTOs and vice versa for data transfer.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
