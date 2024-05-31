@@ -8,7 +8,8 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     url: jdbc:mysql://Localhost:3306/uni_db  # Corrected 'Localhost' to 'localhost'
-    password: EmanueL@15
+    password: //password for mysql database
+  
   jpa:
     hibernate:
       ddl-auto: update
