@@ -47,6 +47,7 @@ This repository contains the backend for a University Management System built wi
 - Maven
 - MySQL
 - Spring-Boot
+- Postman
 
 ### Installation
 
