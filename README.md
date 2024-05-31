@@ -59,9 +59,6 @@ bash
 Copy code
 mvn spring-boot:run
 
-## API Documentation
-Access the API documentation at http://localhost:8080/swagger-ui.html after running the application.
-
 ## 🗂️ Database Schema
 The database schema includes tables for students, courses, faculty, enrollments, timetables, and exams, with appropriate relationships and indexes.
 
@@ -78,6 +75,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## ✨ Contributors
 Emanuel Soloman.
+
 Feel free to fork this project and contribute!
 
 Enjoy managing your university operations with this robust and comprehensive system! 🎉
